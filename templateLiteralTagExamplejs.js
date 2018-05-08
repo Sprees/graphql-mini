@@ -1,3 +1,5 @@
+// Use Quokka to show results in VSCode
+
 // VARIABLES USED IN EXAMPLES
 const name = 'Alex'
 const greeting = 'Hi'
