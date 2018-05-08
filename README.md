@@ -1,6 +1,3 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" width='250px' align='right' />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2000px-GraphQL_Logo.svg.png" width='250px' align='left' />
-
 ## Star Wars + GraphQL / Apollo / React
 
 #### Server Dependencies
@@ -27,6 +24,6 @@
 In this project we will use GraphQL Query Language to structure our data on the server and Apollo to interact with GraphQL on the client (app). We will interact with a traditional RESTful API `Star Wars` and translate it into GraphQL.
 
 #### Completed Example
-<img src='https://gfycat.com/AnotherArcticFox'> 
+<img src='https://gfycat.com/AnotherArcticFox.gif'> 
 
 #### 
