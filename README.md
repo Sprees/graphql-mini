@@ -24,6 +24,6 @@
 In this project we will use GraphQL Query Language to structure our data on the server and Apollo to interact with GraphQL on the client (app). We will interact with a traditional RESTful API `Star Wars` and translate it into GraphQL.
 
 #### Completed Example
-<img src='https://gfycat.com/AnotherArcticFox.gif'> 
+<img src='https://giant.gfycat.com/AnotherArcticFox.webm'> 
 
 #### 
