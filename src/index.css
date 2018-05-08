@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body, div {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: .5em;
+  padding: 0;
+}
+
+p {
+  margin: .1em;
+  padding: 0;
+}
+
+.header {
+  padding: 1.5em;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.header-tech {
+  background-color: inherit;
+  padding-left: 2em;
+  padding-right: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  background-color: inherit;
+  width: 100px;
+  height: 100px;
+}
+
+.graphql {
+  color: #E535AB;
+}
+
+.react {
+  color: #5BC8E7;
+}
+
+.apollo {
+  color: #FFFFFF;
+}
+
+.card {
+  height: 300px;
+  width: 200px;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid #E535AB;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.card h4 {
+  color: #112B49;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  background-color: darkgrey;
+}
+
+.btn > button {
+  background-color: #112B49;
+  color: #FFF;
+  border-style: none;
+  font-weight: 700;
+  letter-spacing: .1em;
+  padding: .3em;
+  border-radius: 5px;
+}
+
+.le-image {
+  border: 3px solid #E535AB;
+  border-radius: 5px;
+}
