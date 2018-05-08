@@ -12,7 +12,7 @@ export const DELETE_PERSON = gql`
   }
 `
 
-const deletePerson = props => {
+const DeletePerson = props => {
   /* 
   Apollo has a cache of your queries, for faster load times. When you add or remove an item, you should also update the cache. 
   */
@@ -21,12 +21,12 @@ const deletePerson = props => {
   return (
     <Mutation
       mutation={ DELETE_PERSON }
-      update={ (cache, { data: { deletePerson } }) => {
+      update={ (cache, { data: { deletePerson: deletedPerson } }) => {
         console.log(cache.readQuery({ query: GET_PEOPLE }))
-        console.log(deletePerson)
+        console.log(deletedPerson)
         let { people } = cache.readQuery({ query: GET_PEOPLE })
         const updated = people.filter(person => {
-          return person.id !== deletePerson.id
+          return person.id !== deletedPerson.id
         })
         cache.writeQuery({
           query: GET_PEOPLE,
@@ -35,10 +35,13 @@ const deletePerson = props => {
       } }
     >
       { (deletePerson, { loading, error }) => (
-        <div>{ props.children(loading, error, deletePerson) }</div>
+        <div>
+          { console.log(deletePerson + '') }
+          { props.children(loading, error, deletePerson) }
+        </div>
       )}
     </Mutation>
   )
 }
 
-export default deletePerson
+export default DeletePerson
