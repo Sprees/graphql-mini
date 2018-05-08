@@ -23,7 +23,7 @@
 
 ### Project Summary  
 - In this project we will use GraphQL Query Language to structure our data on the server and Apollo to interact with GraphQL on the client (app). We will interact with a traditional RESTful API `Star Wars` and translate it into GraphQL.  
-- For basic styling and organization we have some files and folders provided for us. Lets get familiar with the structure 
+- For basic styling and organization we have some files and folders provided for us.
 - `server/graphql/model.js` is where our data for this project is stored, and it was pulled from the [Star Wars](https://swapi.co/) API.
 
 ### Completed Example
@@ -33,7 +33,7 @@
 - Fork and clone this repository
 - Run `yarn` or `npm install`
 
-### Step 1  
+### Step 1 
 
 #### Summary
 
