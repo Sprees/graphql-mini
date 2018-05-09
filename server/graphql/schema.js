@@ -93,6 +93,7 @@ const Mutation = new GraphQLObjectType({
         resolve: (parentVal, args) => {
           let character = characters.find(person => person.id === args.id)
           characters = characters.filter(person => person.id !== args.id)
+          console.log(characters)
           return {
             id: character.id,
             name: character.name
